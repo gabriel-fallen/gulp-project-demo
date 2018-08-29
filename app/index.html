@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Feedback</title>
+  <!--build:css css/main.css-->
+  <link rel="stylesheet" href="../../node_modules/jquery-ui-dist/jquery-ui.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <!--endbuild-->
+</head>
+<body>
+  <h1>Tell us what do you think?</h1>
+
+  <form id="feedback">
+    <div>
+      <label for="name">Name:</label>
+      <input id="name" />
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input id="email" type="email" />
+    </div>
+
+    <div>
+      <label for="birthdate">Birth date:</label>
+      <input id="birthdate" />
+    </div>
+
+    <div>
+      <label for="text">Feedback:</label>
+      <textarea id="text"></textarea>
+    </div>
+
+    <button id="submit" type="submit">Submit</button>
+  </form>
+
+  <!--build:js js/main.js-->
+  <script src="../../node_modules/jquery-ui-dist/external/jquery/jquery.js"></script>
+  <script src="../../node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+  <script src="../js/model.js"></script>
+  <script src="../js/render.js"></script>
+  <!--endbuild-->
+</body>
+</html>
